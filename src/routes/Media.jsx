@@ -33,73 +33,73 @@ const Media = () => {
     const publications = [
         {
             id: 1,
-            image: "/image/2.png",
+            image: "/Images/2.png",
             title: "Architectural Digest",
             category: "PUBLICATIONS",
         },
         {
             id: 2,
-            image: "/image/3.png",
+            image: "/Images/3.png",
             title: "Luxury Interiors",
             category: "PUBLICATIONS",
         },
         {
             id: 3,
-            image: "/image/4.png",
+            image: "/Images/4.png",
             title: "Architectural Publication",
             category: "PUBLICATIONS",
         },
         {
             id: 4,
-            image: "/image/5.png",
+            image: "/Images/5.png",
             title: "Design Journal",
             category: "PUBLICATIONS",
         },
         {
             id: 5,
-            image: "/image/6.png",
+            image: "/Images/6.png",
             title: "Interior Design",
             category: "PUBLICATIONS",
         },
         {
             id: 6,
-            image: "/image/7.png",
+            image: "/Images/7.png",
             title: "Luxury Living",
             category: "PUBLICATIONS",
         },
         {
             id: 7,
-            image: "/image/8.png",
+            image: "/Images/8.png",
             title: "Architecture Today",
             category: "PUBLICATIONS",
         },
         {
             id: 8,
-            image: "/image/2.png",
+            image: "/Images/2.png",
             title: "Design Stories",
             category: "PUBLICATIONS",
         },
         {
             id: 9,
-            image: "/image/3.png",
+            image: "/Images/3.png",
             title: "Architectural Digest",
             category: "PUBLICATIONS",
         },
         {
             id: 10,
-            image: "/image/6.png",
+            image: "/Images/6.png",
             title: "Luxury Homes",
             category: "PUBLICATIONS",
         },
         {
             id: 11,
-            image: "/image/8.png",
+            image: "/Images/8.png",
             title: "Modern Architecture",
             category: "PUBLICATIONS",
         },
         {
             id: 12,
-            image: "/image/6.png",
+            image: "/Images/6.png",
             title: "Design Review",
             category: "PUBLICATIONS",
         },
@@ -114,49 +114,49 @@ const Media = () => {
     const events = [
         {
             id: 101,
-            image: "/image/11.png",
+            image: "/Images/11.png",
             title: "Masterclass at IID Indore",
             category: "EVENTS",
         },
         {
             id: 102,
-            image: "/image/13.png",
+            image: "/Images/13.png",
             title: "ID Salon, New Delhi",
             category: "EVENTS",
         },
         {
             id: 103,
-            image: "/image/15.png",
+            image: "/Images/15.png",
             title: "Maison & Objet, Hong Kong",
             category: "EVENTS",
         },
         {
             id: 104,
-            image: "/image/17.png",
+            image: "/Images/17.png",
             title: "Maison & Objet, Paris",
             category: "EVENTS",
         },
         {
             id: 105,
-            image: "/image/21.png",
+            image: "/Images/21.png",
             title: "Asia One Awards, Dubai",
             category: "EVENTS",
         },
         {
             id: 106,
-            image: "/image/23.png",
+            image: "/Images/23.png",
             title: "Downtown Design, Dubai",
             category: "EVENTS",
         },
         {
             id: 107,
-            image: "/image/25.png",
+            image: "/Images/25.png",
             title: "Maison & Objet, French Embassy, New Delhi",
             category: "EVENTS",
         },
         {
             id: 108,
-            image: "/image/27.png",
+            image: "/Images/27.png",
             title: "Forbes M-Connect, New Delhi",
             category: "EVENTS",
         },
@@ -171,7 +171,7 @@ const Media = () => {
     const blogs = [
         {
             id: 201,
-            image: "/image/12.png",
+            image: "/Images/12.png",
             date: "15 Aug, 2026",
             title: "Pune's Burgeoning Luxury Interior Design Market",
             author: "By Aparna Kaushik Design Group",
@@ -181,7 +181,7 @@ const Media = () => {
         },
         {
             id: 202,
-            image: "/image/14.png",
+            image: "/Images/14.png",
             date: "12 Aug, 2026",
             title: "Fusing Beachfront Living with a Contemporary Abu Dhabi Grammar...",
             author: "By Aparna Kaushik Design Group",
@@ -191,7 +191,7 @@ const Media = () => {
         },
         {
             id: 203,
-            image: "/image/16.png",
+            image: "/Images/16.png",
             date: "09 Aug, 2026",
             title: "Restoring the Lutyens Bungalow: Heritage Architecture Meets Contemporary Luxury...",
             author: "By Aparna Kaushik Design Group",
@@ -201,7 +201,7 @@ const Media = () => {
         },
         {
             id: 204,
-            image: "/image/18.png",
+            image: "/Images/18.png",
             date: "03 Aug, 2026",
             title: "Taking Cues from Time-Tested Vaastu Principles for Contemporary Luxury Living",
             author: "By Aparna Kaushik Design Group",
@@ -211,7 +211,7 @@ const Media = () => {
         },
         {
             id: 205,
-            image: "/image/22.png",
+            image: "/Images/22.png",
             date: "31 Jul, 2026",
             title: "Landscape Design as a Tool that Reinterprets Luxury Villas of Dubai for...",
             author: "By Aparna Kaushik Design Group",
@@ -221,7 +221,7 @@ const Media = () => {
         },
         {
             id: 206,
-            image: "/image/24.png",
+            image: "/Images/24.png",
             date: "24 Jul, 2026",
             title: "Luxury Residences that Reinterpret the Holiday Home Template for Goa will...",
             author: "By Aparna Kaushik Design Group",
@@ -231,7 +231,7 @@ const Media = () => {
         },
         {
             id: 207,
-            image: "/image/26.png",
+            image: "/Images/26.png",
             date: "23 Jul, 2026",
             title: "Kolkata's Colonial Bones Present a Plethora of Luxury Interior Design Avenues",
             author: "By Aparna Kaushik Design Group",
@@ -241,7 +241,7 @@ const Media = () => {
         },
         {
             id: 208,
-            image: "/image/28.png",
+            image: "/Images/28.png",
             date: "18 Jul, 2026",
             title: "Deriving from Culture, Climate and Community for a Villa in the Emirates Hills",
             author: "By Aparna Kaushik Design Group",
@@ -639,7 +639,7 @@ const Media = () => {
                         "
                     >
                         <img
-                            src="/image/120.svg"
+                            src="/Images/120.svg"
                             alt="Aparna Kaushik Design Group"
                             className="
                                 h-20
@@ -1202,7 +1202,7 @@ const Media = () => {
                         ==================================================== */}
 
                         <motion.img
-                            src="/image/legacy.jpg"
+                            src="/Images/legacy.jpg"
                             alt="Aparna Kaushik luxury architecture"
                             style={{
                                 y: legacyImageY,

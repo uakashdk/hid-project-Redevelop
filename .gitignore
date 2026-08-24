@@ -7,13 +7,21 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+<<<<<<< HEAD
+=======
+/public
+
+>>>>>>> 9287daf65125fd060e71be8cd5a7ca4b8da28e70
 node_modules
 dist
 dist-ssr
 *.local
+<<<<<<< HEAD
 /public
 
 
+=======
+>>>>>>> 9287daf65125fd060e71be8cd5a7ca4b8da28e70
 
 # Editor directories and files
 .vscode/*
@@ -24,5 +32,9 @@ dist-ssr
 *.ntvs*
 *.njsproj
 *.sln
+<<<<<<< HEAD
 *.sw?
 
+=======
+*.sw?
+>>>>>>> 9287daf65125fd060e71be8cd5a7ca4b8da28e70
