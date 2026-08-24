@@ -1,3 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --hid-burgundy: #760027;
+  --hid-dark-burgundy: #4b001b;
+  --hid-gold: #c9a66b;
+  --hid-cream: #f4f0e8;
+  --hid-black: #0b0b0b;
+  --hid-white: #ffffff;
+  --hid-gray: #77716b;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: auto;
+}
+
+body {
+  background: var(--hid-cream);
+  color: var(--hid-black);
+  font-family: "Inter", sans-serif;
+  overflow-x: hidden;
+}
+
+body.menu-open {
+  overflow: hidden;
+}
+
+img,
+video {
+  display: block;
+  max-width: 100%;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+::selection {
+  background: var(--hid-burgundy);
+  color: white;
+}
+
+/* Typography */
+
+.font-display {
+  font-family: "Cormorant Garamond", serif;
+}
+
+.text-display {
+  font-family: "Cormorant Garamond", serif;
+  font-size: clamp(4rem, 9vw, 10rem);
+  line-height: 0.84;
+  letter-spacing: -0.045em;
+}
+
+.text-editorial {
+  font-family: "Cormorant Garamond", serif;
+  font-size: clamp(2.5rem, 5vw, 6rem);
+  line-height: 0.95;
+}
+
+.text-small {
+  font-size: 0.72rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+/* Main container */
+
+.hid-container {
+  width: min(100% - 80px, 1500px);
+  margin-inline: auto;
+}
+
+@media (max-width: 768px) {
+  .hid-container {
+    width: min(100% - 40px, 1500px);
+  }
+}
+
+/* Section */
+
+.hid-section {
+  padding-block: clamp(5rem, 10vw, 12rem);
+}
+
+/* Image reveal */
+
+.image-reveal {
+  overflow: hidden;
+}
+
+.image-reveal img,
+.image-reveal video {
+  transform: scale(1.12);
+  transition: transform 1.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.image-reveal.is-visible img,
+.image-reveal.is-visible video {
+  transform: scale(1);
+}
+
+/* Burgundy button */
+
+.hid-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+
+  padding: 0.9rem 1.6rem;
+
+  border-radius: 999px;
+
+  background: var(--hid-burgundy);
+  color: white;
+
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+
+  transition:
+    transform 0.4s ease,
+    background 0.4s ease;
+}
+
+.hid-button:hover {
+  transform: translateY(-3px);
+  background: var(--hid-dark-burgundy);
+}
+
+/* Cursor */
+
+.hid-cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  width: 28px;
+  height: 28px;
+
+  border: 1px solid white;
+  border-radius: 50%;
+
+  pointer-events: none;
+  z-index: 9999;
+
+  transform: translate(-50%, -50%);
+  mix-blend-mode: difference;
+}
+
+@media (pointer: coarse) {
+  .hid-cursor {
+    display: none;
+  }
+}
+
+/* Reduced motion */
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+@import "tailwindcss";
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
