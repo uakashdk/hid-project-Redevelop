@@ -56,13 +56,9 @@ const BlogDetail = () => {
             {/* HERO IMAGE */}
             <section className="w-full px-6 sm:px-12 md:px-20 lg:px-24 xl:px-32 mx-auto mb-16 md:mb-24">
                 <img
-                    src="/image/hero.jpg"
+                    src="/Image/hero.jpg"
                     alt="Saadiyat Island Villa Interior"
                     className="w-full h-auto object-cover max-h-[80vh] rounded-2xl"
-                    onError={(e) => {
-                        // Fallback to another image if hero.jpg is missing or different
-                        e.currentTarget.src = "/image/14.png";
-                    }}
                 />
             </section>
 

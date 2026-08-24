@@ -41,10 +41,10 @@ function Navbar() {
                     {/* Right Navigation */}
                     <div className="hidden lg:flex items-center gap-14 ml-auto">
                         <Link
-                            to="/publications"
+                            to="/media"
                             className="text-[11px] uppercase tracking-[0.16em] text-black hover:opacity-60"
                         >
-                            Publications
+                            Media
                         </Link>
 
                         <Link
